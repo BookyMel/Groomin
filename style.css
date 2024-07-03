@@ -171,6 +171,11 @@ footer ul li {
     border-radius: 15px;
 }
 
+.box:hover {
+    transform: scale(1.5);
+    transition: transform 2s;
+}
+
 @media (max-width: 1200px) {
     .container {
         width: calc(100% - 40px);
